@@ -138,30 +138,108 @@
             </div>
         </header>
 
-        <div class="container">
-            <div class="grid__row">
-                <div class="grid__column-2">
-                    <nav class="category">
-                        <h3 class="category__heading">
-                            <i class="fa-solid fa-list"></i>
-                            Danh mục
-                        </h3>
-                        <ul class="category-list">
-                            <li class="category-item category-item--active">
-                                <a href="#" class="category-item-link">Trang điểm mặt</a>
-                            </li>
-                            <li class="category-item">
-                                <a href="#" class="category-item-link">fd</a>
-                            </li>
-                            <li class="category-item">
-                                <a href="#" class="category-item-link">dfđf</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
+        <div class="app__container">
+            <div class="grid">
+                <div class="grid__row app__content">
+                    <div class="grid__column-2">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                <i class="category__heading-icon fa-solid fa-list"></i>
+                                Danh mục
+                            </h3>
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <a href="#" class="category-item-link">Sản phẩm</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item-link">Ví Nam</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item-link">Balo Nam</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item-link">Thắt Lưng Nam</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+    
+                    <div class="grid__column-10">
+                        <div class="home-filter">
+                            <span class="home-filter__lable">Sắp xếp theo</span>
+                            <button class="home-filter__btn btn">Phổ biến</button>
+                            <button class="home-filter__btn btn btn--primary">Mới nhất</button>
+                            <button class="home-filter__btn btn">Bán chạy</button>
+                            <div class="select-input">
+                                <span class="select-input__label">Giá</span>
+                                <i class="select-input__icon fas fa-angle-down"></i>
+                                <ul class="select-input_list">
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá : thấp đến cao</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá : cao đến thấp</a>
+                                    </li>
+                                </ul>
+                            </div>
+    
+                            <div class="home_filter__page">
+                                <span class="home_filter__page-num">
+                                    <span class="home_filter__page-current">1</span>/14
+                                </span>
+    
+                                <div class="home_filter__page-control">
+                                    <a href="" class="home_filter__page-btn home_filter__page-btn--disabled">
+                                        <i class="home_filter__page-icon fas fa-angle-left"></i>
+                                    </a>
+                                    <a href="" class="home_filter__page-btn">
+                                        <i class="home_filter__page-icon fas fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
 
-                <div class="grid__column-10">
-
+                        <div class="home-product">
+                             <div class="grid__row">
+                                 <div class="grid__column-2-4">
+                                     <div class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/bf8f1ac77c179b3fd2c123895b830830_tn");></div>
+                                        <h4 class="home-product-item__name">BOSTANTEN Ba Lô Đi Học Bằng Da PU Thời Trang Cho Nam</h4>
+                                        <div class="home-product-item__price">
+                                            <div class="home-product-item__price-old">₫290.000</div>
+                                            <div class="home-product-item__price-current">₫209.000</div>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-no fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="home-product-item__sold">88 Đã bán</div>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Nhật Bản</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <div class="home-product-item__sale-off-label">GIẢM</div>
+                                        </div>
+                                     </div>
+                                 </div>
+                             </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
