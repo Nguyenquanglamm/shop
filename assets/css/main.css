@@ -530,10 +530,25 @@
 }
 
 /* Product item */
+.home-product{
+    margin-bottom: 10px;
+}
 .home-product-item{
+    display: block;
+    text-decoration: none;
     background-color: var(--white-color);
     margin-top: 10px;
     position: relative;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    box-shadow: 0 0.1rem 0.2rem 0 rgba(0, 0, 0, 0.1);
+    transition: transform linear 0.1s;
+    will-change: transform;
+}
+
+.home-product-item:hover{
+    box-shadow: 0 0.1rem 2rem 0 rgba(0, 0, 0, 0.05);
+    transform: translateY(-2px);
 }
 
 .home-product-item__img{
